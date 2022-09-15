@@ -273,3 +273,7 @@ footer .logo-link>span {
 .projects li {
     border: 1px solid #EEEEEE;
 }
+
+.projects p {
+    color: var(--text-color);
+}
