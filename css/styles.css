@@ -115,6 +115,10 @@ body ul {
     letter-spacing: 0.02em;
 }
 
+.page-footer a:link {
+    color: var(--whiteColor);
+}
+
 .page-header .logo a:link,
 .page-footer .logo a:link {
     font-size: 26px;
