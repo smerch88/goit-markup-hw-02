@@ -154,7 +154,9 @@ footer .contacts a:link {
 .contacts a:hover,
 .contacts a:focus,
 .page-footer a:hover,
-.page-footer a:focus {
+.page-footer a:focus,
+footer .contacts a:hover,
+footer .contacts a:hover {
     color: var(--blueColor)
 }
 
