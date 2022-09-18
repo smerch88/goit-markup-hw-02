@@ -38,7 +38,7 @@ body ul {
     background-color: var(--backgroundDarkColor);
 }
 
-.main-description h1 {
+.main-description .main-title {
     text-transform: uppercase;
     line-height: 1.36;
     letter-spacing: 0.06em;
@@ -53,7 +53,7 @@ body ul {
     font-size: 14px;
 }
 
-.exeptions h3 {
+.exeptions .exeption-title {
     font-size: 14px;
     color: var(--headTextColor);
 }
@@ -62,15 +62,24 @@ body ul {
     background-color: var(--backgroundGreyColor);
 }
 
-.team h3 {
+.team .exeption-title {
     color: var(--headTextColor);
     line-height: 1.188;
     font-size: 16px;
 }
 
-.team p {
+.team .team-text {
     font-size: 16px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
+    line-height: 1.19;
+}
+
+.team .team-title {
+    color: var(--headTextColor);
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 .member-box {
@@ -227,8 +236,9 @@ footer .contacts a:hover {
     letter-spacing: 0.03em
 }
 
-.filter-title {
+.filter-item .filter-title {
     font-size: 18px;
+    letter-spacing: 0.06em;
 }
 
 .filter-button {
