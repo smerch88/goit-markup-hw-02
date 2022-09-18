@@ -48,13 +48,14 @@ body ul {
 }
 
 .exeptions {
-    color: var(--headTextColor);
+
     line-height: 1.14;
     font-size: 14px;
 }
 
 .exeptions h3 {
     font-size: 14px;
+    color: var(--headTextColor);
 }
 
 .team {
@@ -101,9 +102,13 @@ body ul {
 }
 
 .page-header {
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--whiteColor);
     border: 1px solid var(--shadowColor);
 }
+
+.page-header {}
 
 .page-header a:link,
 .page-footer a:link {
@@ -151,6 +156,11 @@ footer .contacts a:link {
 
 .contacts a:visited {
     color: var(--textColor);
+}
+
+.current-page a,
+.current-page a:visited {
+    color: var(--blueColor);
 }
 
 .page-header a:hover,
