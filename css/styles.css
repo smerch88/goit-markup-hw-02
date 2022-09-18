@@ -191,6 +191,10 @@ footer .contacts a:hover {
     color: var(--blueColor);
 }
 
+.page-header .logo .a {
+    color: var(--blueColor);
+}
+
 .page-footer {
     background-color: var(--backgroundDarkColor);
 }
