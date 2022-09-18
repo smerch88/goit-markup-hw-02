@@ -184,7 +184,7 @@ footer .contacts a:hover {
     color: var(--blueColor)
 }
 
-.logo a:visited,
+.page-header .logo a:visited,
 .logo a:hover,
 .logo a:focus,
 .logo a {
